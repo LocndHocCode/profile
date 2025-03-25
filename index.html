@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Marketing & Development Expert</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/controls/OrbitControls.js"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">YourBrand</div>
+            <ul class="nav-links">
+                <li class="home-link">
+                    <a href="#home">Trang chủ</a>
+                    <div id="chain-container" class="chain-3d-container"></div>
+                </li>
+                <li><a href="#services">Dịch vụ</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <h1>Chào mừng đến với Portfolio của tôi</h1>
+            <p>Chuyên gia Digital Marketing & Development</p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn primary">Liên hệ ngay</a>
+                <a href="#services" class="btn secondary">Xem dịch vụ</a>
+            </div>
+        </div>
+        <div class="hero-image" data-aos="fade-left">
+            <div class="chain-container">
+                <div class="chain left-chain"></div>
+                <div class="chain right-chain"></div>
+                <div class="profile-frame">
+                    <video class="profile-video" autoplay loop muted playsinline>
+                        <source src="assets/hayvuilen.mp4" type="video/mp4">
+                    </video>
+                    <div class="reflection"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2 data-aos="fade-up">Dịch vụ của tôi</h2>
+        <div class="services-grid">
+            <div class="service-card" data-aos="fade-up">
+                <i class="fas fa-ad"></i>
+                <h3>Quảng cáo Facebook</h3>
+                <p>Tối ưu chiến dịch quảng cáo Facebook với chiến lược hiệu quả</p>
+            </div>
+            <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                <i class="fas fa-code"></i>
+                <h3>Phát triển Web</h3>
+                <p>Thiết kế và phát triển website chuyên nghiệp</p>
+            </div>
+            <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Phát triển App</h3>
+                <p>Xây dựng ứng dụng di động chất lượng cao</p>
+            </div>
+            <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                <i class="fas fa-chart-line"></i>
+                <h3>Tăng tương tác MXH</h3>
+                <p>Chiến lược tăng tương tác cho mạng xã hội</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 data-aos="fade-up">Liên hệ</h2>
+        <div class="contact-container">
+            <form class="contact-form" data-aos="fade-right">
+                <input type="text" placeholder="Họ tên" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Nội dung" required></textarea>
+                <button type="submit" class="btn primary">Gửi tin nhắn</button>
+            </form>
+            <div class="contact-info" data-aos="fade-left">
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>email@example.com</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+84 123 456 789</p>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 YourBrand. All rights reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/chain-animation.js"></script>
+</body>
+</html> 
